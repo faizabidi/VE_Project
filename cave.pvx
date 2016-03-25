@@ -1,0 +1,60 @@
+<?xml version="1.0" ?>
+<pvx>
+    <Process Type="client" />
+    <Process Type="server">
+    <!-- Tiled wall in Kitware -->
+    <!--<EyeSeparation Value="0.65/">-->
+    <Machine Name="Front1"
+           Environment="DISPLAY=:0.4"
+           Geometry="2560x1600+0+0"
+           FullScreen="1"
+           ShowBorders="0"
+           LowerLeft="-1  -1  -1"
+           LowerRight="1    -1  -1"
+           UpperRight="1    1   -1"/>
+    <Machine Name="Front2"
+           Environment="DISPLAY=:0.6"
+           Geometry="2560x1600+0+0"
+           FullScreen="1"
+           ShowBorders="0"
+           LowerLeft="-1    -1  1"
+           LowerRight="1   -1  -1"
+           UpperRight="1   1   -1"/>
+    <Machine Name="Left1"
+           Environment="DISPLAY=:0.0"
+           Geometry="2560x1600+0+0"
+           LowerLeft="-1 -1  1"
+           LowerRight="-1   -1  -1"
+           UpperRight="-1   1   -1"/>
+    <Machine Name="Left2"
+           Environment="DISPLAY=:0.2"
+	   Geometry="2560x1600+0+0"
+           LowerLeft="-1 -1 1"
+           LowerRight="-1   -1  -1"
+           UpperRight="-1   1   -1"/>
+    <Machine Name="Right1"
+           Environment="DISPLAY=:0.8"
+	   Geometry="2560x1600+0+0"
+           LowerLeft="1 -1 -1"
+           LowerRight="1   -1  1"
+           UpperRight="1   1   1"/>
+    <Machine Name="Right2"
+           Environment="DISPLAY=:0.10"
+	   Geometry="2560x1600+0+0"
+           LowerLeft="1 -1 -1"
+           LowerRight="1   -1  1"
+           UpperRight="1   1   1"/>
+    <Machine Name="Bottom1"
+           Environment="DISPLAY=:0.12"
+	   Geometry="2560x1600+0+0"
+           LowerLeft="-1 -1 1"
+           LowerRight="1   -1  1"
+           UpperRight="1   -1   -1"/>
+    <Machine Name="Bottom2"
+           Environment="DISPLAY=:0.14"
+	   Geometry="2560x1600+0+0"
+           LowerLeft="-1 -1 1"
+           LowerRight="1   -1  1"
+           UpperRight="1   -1   -1"/>
+    </Process>
+</pvx>
