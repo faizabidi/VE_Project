@@ -1,0 +1,78 @@
+<?xml version="1.0" ?>
+<pvx>
+    <Process Type="client" />
+    <Process Type="server">
+    <!-- Tiled wall in Kitware -->
+    <EyeSeparation Value="0.065"/>
+    <Machine Name="CTL"
+           Environment="DISPLAY=:0.4"
+           Geometry="2560x1600+0+0"
+           FullScreen="0"
+           ShowBorders="0"
+           LowerLeft="-1.524  -0.381  -1.524"
+           LowerRight="1.524    -0.381  -1.524"
+           UpperRight="1.524    1.524   -1.524"/>
+    <Machine Name="CTR"
+           Environment="DISPLAY=:0.5"
+           Geometry="2560x1600+0+0"
+           FullScreen="1"
+           ShowBorders="0"
+           LowerLeft="-1.524    -0.381  -1.524"
+           LowerRight="1.524    -0.381  -1.524"
+           UpperRight="1.524    1.524   -1.524"/>
+       <!---<Machine Name="CBL"
+           Environment="DISPLAY=:0.6"
+           Geometry="2560x1600+0+0"
+           FullScreen="1"
+           ShowBorders="0"
+           LowerLeft="-1.524    -1.524  -1.524"
+           LowerRight="1.524    -1.524  -1.524"
+           UpperRight="1.524    0.381   -1.524"/>
+    <Machine Name="CBR"
+           Environment="DISPLAY=:0.7"
+           Geometry="2560x1600+0+0"
+           FullScreen="1"
+           ShowBorders="0"
+           LowerLeft="-1.524    -1.524  -1.524"
+           LowerRight="1.524    -1.524  -1.524"
+           UpperRight="1.524    0.381   -1.524"/>
+    
+    <Machine Name="LTL"
+           Environment="DISPLAY=:0.0"
+           Geometry="2560x1600+0+0"
+           LowerLeft="-1.524    -0.381  1.524"
+           LowerRight="-1.524   -0.381  -1.524"
+           UpperRight="-1.524   1.524   -1.524"/>
+    <Machine Name="LTR"
+           Environment="DISPLAY=:0.1"
+	   Geometry="2560x1600+0+0"
+           LowerLeft="-1.524    -0.381  1.524"
+           LowerRight="-1.524   -0.381  -1.524"
+           UpperRight="-1.524   1.524   -1.524"/>
+    <Machine Name="LBL"
+           Environment="DISPLAY=:0.2"
+	   Geometry="2560x1600+0+0"
+           LowerLeft="-1.524    -1.524  1.524"
+           LowerRight="-1.524   -1.524  -1.524"
+           UpperRight="-1.524   0.381   -1.524"/>
+    <Machine Name="LBR"
+           Environment="DISPLAY=:0.3"
+	   Geometry="2560x1600+0+0"
+           LowerLeft="-1.524    -1.524  1.524"
+           LowerRight="-1.524   -1.524  -1.524"
+           UpperRight="-1.524   0.381   -1.524"/>
+
+    <Machine Name="Bottom1"
+           Environment="DISPLAY=:0.12"
+	   Geometry="2560x1600+0+0"
+           LowerLeft="-1 -1 1"
+           LowerRight="1   -1  1"
+           UpperRight="1   -1   -1"/>
+    <Machine Name="Bottom2"
+           Environment="DISPLAY=:0.14"
+	   Geometry="2560x1600+0+0"
+           LowerLeft="-1 -1 1"
+           LowerRight="1   -1  1"
+           UpperRight="1   -1   -1"/>-->
+    </Process>
+</pvx>
