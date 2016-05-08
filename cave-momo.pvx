@@ -49,14 +49,14 @@
     <Machine Name="FT"
            Environment="DISPLAY=:0.12"
 	   Geometry="2560x1600+0+0"
-           LowerLeft="-1.524    -1.524  0"
-           LowerRight="1.524    -1.524  0"
+           LowerLeft="-1.524    -1.524  0.381"
+           LowerRight="1.524    -1.524  0.381"
            UpperRight="1.524    -1.524  -1.524"/>
     <Machine Name="FB"
            Environment="DISPLAY=:0.14"
 	   Geometry="2560x1600+0+0"
            LowerLeft="-1.524    -1.524  1.524"
            LowerRight="1.524    -1.524  1.524"
-           UpperRight="1.524    -1.524  0"/>
+           UpperRight="1.524    -1.524  0.381"/>
     </Process>
 </pvx>
